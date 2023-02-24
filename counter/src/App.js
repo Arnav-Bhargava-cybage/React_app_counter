@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 import Component from './components/Component';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 
@@ -27,7 +28,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className='container'>
       {data.map((item, index) => (
         <Component
           key={index}
