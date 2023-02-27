@@ -1,9 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Button from './Button';
-import Title from './Title';
-import Count from './Count';
-import IconWrapper from "./IconWrapper";
+import Button from './styledComponents/Button';
+import Title from './styledComponents/Title';
+import Count from './styledComponents/Count';
+import IconWrapper from "./styledComponents/IconWrapper";
 
 const Component = ({ title, icon, count, selected, onClick }) => {
     return(
