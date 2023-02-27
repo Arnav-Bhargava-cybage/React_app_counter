@@ -5,8 +5,8 @@ const Button = styled.button`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: ${props => (props.active ? '#BCE0FD' : '#E7E7E7')};
-  color: ${props => (props.active ? '#36454F' : '#5A5A5A')};
+  background-color: ${props => (props.selected ? '#BCE0FD' : '#E7E7E7')};
+  color: ${props => (props.selected ? '#36454F' : '#5A5A5A')};
   height:40px;
   width:200px;
   border: 1px solid grey;

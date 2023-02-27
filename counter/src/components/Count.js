@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 const Count = styled.div`
-  background-color: ${props => (props.active ? '#0000ff' : '#D4D4D4')};
-  color: ${props => (props.active ? '#FFFFFF' : '#5A5A5A')};
+  background-color: ${props => (props.selected ? '#0000ff' : '#D4D4D4')};
+  color: ${props => (props.selected ? '#FFFFFF' : '#5A5A5A')};
   font-size: 16px;
   font-weight: bold;
   border-radius: 20px;
