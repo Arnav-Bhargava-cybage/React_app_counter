@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Count = styled.div`
-  background-color: ${props => (props.selected ? '#0000ff' : '#D4D4D4')};
+  background-color: ${props => (props.selected ? '#0000CC' : '#E7E7E7')};
   color: ${props => (props.selected ? '#FFFFFF' : '#5A5A5A')};
   font-size: 16px;
   font-weight: bold;

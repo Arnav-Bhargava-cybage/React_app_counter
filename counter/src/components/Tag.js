@@ -5,7 +5,7 @@ import Title from './styledComponents/Title';
 import Count from './styledComponents/Count';
 import IconWrapper from "./styledComponents/IconWrapper";
 
-const Component = ({ title, icon, count, selected, onClick }) => {
+const Tag = ({ title, icon, count, selected, onClick }) => {
     return(
     <Button selected={selected} onClick={onClick}>
       <IconWrapper>
@@ -17,4 +17,4 @@ const Component = ({ title, icon, count, selected, onClick }) => {
   );
 };
 
-export default Component;
+export default Tag;
