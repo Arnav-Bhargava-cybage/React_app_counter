@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Button = styled.button`
+export const Button = styled.button`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,4 +17,4 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-export default Button;
+

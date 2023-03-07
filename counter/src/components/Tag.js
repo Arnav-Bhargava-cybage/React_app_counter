@@ -1,9 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Button from './styledComponents/Button';
-import Title from './styledComponents/Title';
-import Count from './styledComponents/Count';
-import IconWrapper from "./styledComponents/IconWrapper";
+import {Button, Title, Count, IconWrapper} from './styledComponents';
 
 const Tag = ({ title, icon, count, selected, onClick }) => {
     return(
